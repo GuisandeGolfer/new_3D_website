@@ -20,8 +20,7 @@ import {
   vmware,
   vine,
   carrent,
-  jobit,
-  tripguide,
+  questionMark,
   threejs,
 } from "../assets";
 
@@ -123,10 +122,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2015 - August 2016",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Maintain a high standard of cleanliness and hygiene in the restaurant by promptly clearing and sanitizing tables after guests have left.",
+      "Provide outstanding support to the serving staff by assisting in the timely delivery of food and beverages to guests, ensuring a seamless and enjoyable dining experience.",
+      "Display a keen attention to detail by anticipating guests' needs and refilling water glasses and other drinks in a timely and unobtrusive manner.",
+      "Demonstrate a strong work ethic and a commitment to excellence by diligently and efficiently removing dirty dishes and utensils from tables and promptly returning them to the kitchen for cleaning.",
     ],
   },
   {
@@ -136,10 +135,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2018 - December 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Provide exceptional customer service by greeting and assisting customers in the electronics department, answering their questions and providing product recommendations.",
+      "Demonstrate a deep knowledge of electronics products and stay up-to-date with the latest trends and technologies to provide customers with informed and relevant advice.",
+      "Drive sales and meet performance targets by proactively engaging with customers, recommending additional products and services, and closing sales.",
+      "Build strong relationships with customers by following up on purchases, resolving any issues, and providing ongoing support and assistance.",
     ],
   },
   {
@@ -162,10 +161,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Build and maintain strong relationships with key customers, acting as their primary point of contact for all technical matters related to VMware solutions.",
+      "Provide expert technical guidance and support to customers, ensuring that their needs and expectations are met or exceeded.",
+      "Collaborate with cross-functional teams within VMware to address customer issues, identify opportunities for improvement, and drive customer satisfaction and retention.",
+      "Act as a trusted advisor to customers, providing strategic guidance on the use and optimization of VMware solutions, and helping them to achieve their business objectives.",
     ],
   },
 ];
@@ -173,24 +172,24 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Diego proved me wrong.",
+    name: "To Be Determined...",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their clients' success like Diego does.",
+    name: "To Be Determined...",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Diego optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "To Be Determined...",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -199,30 +198,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Social Media Python REST API",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "a REST API built to support a fully functional social network website. Deployed with a CI/CD pipline to the Cloud,",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "fast-api",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Heroku",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/GuisandeGolfer/FCC-fully-featured-fastAPI",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "To Be Determined",
+    description: "To Be Determined",
     tags: [
       {
         name: "react",
@@ -237,13 +236,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: questionMark,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "To Be Determined",
+    description: "To Be Determined",
     tags: [
       {
         name: "nextjs",
@@ -258,7 +256,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: questionMark,
     source_code_link: "https://github.com/",
   },
 ];

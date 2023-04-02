@@ -27,7 +27,7 @@ import cec from "./company/CEC.png";
 import vmware from "./company/vmware-logo.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import questionMark from "./question_mark.jpg";
 import tripguide from "./tripguide.png";
 
 export {
@@ -57,6 +57,6 @@ export {
   cec,
   vmware,
   carrent,
-  jobit,
+  questionMark,
   tripguide,
 };
