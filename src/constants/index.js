@@ -114,7 +114,6 @@ const technologies = [
 ];
 
 const experiences = [
-  // TODO: change the orders of these experiences so they line up with my job experience.
   {
     title: "Busser",
     company_name: "The Vine",

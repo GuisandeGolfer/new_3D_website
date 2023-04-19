@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
+// TODO: update things and make sure they are running well.
 import {
   About,
   Contact,
