@@ -5,6 +5,9 @@ extend({ OrbitControls, Preload, useGLTF });
 
 import CanvasLoader from "../Loader";
 
+// TODO: figure out if I can keep or should remove my vite.yml file with netlify.
+// TODO: create a new 3D model that represents me more.
+
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 

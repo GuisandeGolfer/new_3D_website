@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-// TODO: update things and make sure they are running well.
+// TODO: update Experience, Contact, and Works.
 import {
   About,
   Contact,
@@ -13,6 +13,7 @@ import {
   StarsCanvas,
 } from "./components";
 
+// TODO: find a way to customize the user cursor with this React site, and also have click effects for the user.
 const App = () => {
   return (
     <BrowserRouter>
