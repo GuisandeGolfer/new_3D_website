@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-// TODO: update Experience, Contact, and Works.
+// TODO: update Experience, and Works.
 import {
   About,
   Contact,
