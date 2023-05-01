@@ -115,29 +115,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Busser",
-    company_name: "The Vine",
-    icon: vine,
-    iconBg: "#383E56",
-    date: "Jan 2015 - August 2016",
-    points: [
-      "Maintain a high standard of cleanliness and hygiene in the restaurant by promptly clearing and sanitizing tables after guests have left.",
-      "Provide outstanding support to the serving staff by assisting in the timely delivery of food and beverages to guests, ensuring a seamless and enjoyable dining experience.",
-      "Display a keen attention to detail by anticipating guests' needs and refilling water glasses and other drinks in a timely and unobtrusive manner.",
-      "Demonstrate a strong work ethic and a commitment to excellence by diligently and efficiently removing dirty dishes and utensils from tables and promptly returning them to the kitchen for cleaning.",
-    ],
-  },
-  {
-    title: "Target Electronics Representative",
-    company_name: "Target",
-    icon: target,
+    title: "Technical Account Manager",
+    company_name: "VMware Inc.",
+    icon: vmware,
     iconBg: "#E6DEDD",
-    date: "Jan 2018 - December 2018",
+    date: "July 2021 - Present",
     points: [
-      "Provide exceptional customer service by greeting and assisting customers in the electronics department, answering their questions and providing product recommendations.",
-      "Demonstrate a deep knowledge of electronics products and stay up-to-date with the latest trends and technologies to provide customers with informed and relevant advice.",
-      "Drive sales and meet performance targets by proactively engaging with customers, recommending additional products and services, and closing sales.",
-      "Build strong relationships with customers by following up on purchases, resolving any issues, and providing ongoing support and assistance.",
+      "Build and maintain strong relationships with key customers, acting as their primary point of contact for all technical matters related to VMware solutions.",
+      "Provide expert technical guidance and support to customers, ensuring that their needs and expectations are met or exceeded.",
+      "Collaborate with cross-functional teams within VMware to address customer issues, identify opportunities for improvement, and drive customer satisfaction and retention.",
+      "Act as a trusted advisor to customers, providing strategic guidance on the use and optimization of VMware solutions, and helping them to achieve their business objectives.",
     ],
   },
   {
@@ -154,16 +141,30 @@ const experiences = [
     ],
   },
   {
-    title: "Technical Account Manager",
-    company_name: "VMware Inc.",
-    icon: vmware,
+    title: "Target Electronics Representative",
+    company_name: "Target",
+    icon: target,
     iconBg: "#E6DEDD",
-    date: "July 2021 - Present",
+    date: "Jan 2018 - December 2018",
     points: [
-      "Build and maintain strong relationships with key customers, acting as their primary point of contact for all technical matters related to VMware solutions.",
-      "Provide expert technical guidance and support to customers, ensuring that their needs and expectations are met or exceeded.",
-      "Collaborate with cross-functional teams within VMware to address customer issues, identify opportunities for improvement, and drive customer satisfaction and retention.",
-      "Act as a trusted advisor to customers, providing strategic guidance on the use and optimization of VMware solutions, and helping them to achieve their business objectives.",
+      "Provide exceptional customer service by greeting and assisting customers in the electronics department, answering their questions and providing product recommendations.",
+      "Demonstrate a deep knowledge of electronics products and stay up-to-date with the latest trends and technologies to provide customers with informed and relevant advice.",
+      "Drive sales and meet performance targets by proactively engaging with customers, recommending additional products and services, and closing sales.",
+      "Build strong relationships with customers by following up on purchases, resolving any issues, and providing ongoing support and assistance.",
+    ],
+  },
+
+  {
+    title: "Busser",
+    company_name: "The Vine",
+    icon: vine,
+    iconBg: "#383E56",
+    date: "Jan 2015 - August 2016",
+    points: [
+      "Maintain a high standard of cleanliness and hygiene in the restaurant by promptly clearing and sanitizing tables after guests have left.",
+      "Provide outstanding support to the serving staff by assisting in the timely delivery of food and beverages to guests, ensuring a seamless and enjoyable dining experience.",
+      "Display a keen attention to detail by anticipating guests' needs and refilling water glasses and other drinks in a timely and unobtrusive manner.",
+      "Demonstrate a strong work ethic and a commitment to excellence by diligently and efficiently removing dirty dishes and utensils from tables and promptly returning them to the kitchen for cleaning.",
     ],
   },
 ];

@@ -48,8 +48,15 @@ const About = () => {
           I am a skilled software developer with experience with JavaScript, and
           Python. I have utilized different frameworks from React, Node.js,
           Three.js, Django, and Flask. I am building my expertise and experience
-          through building my projects in public on my Twitter and my Medium
-          blog.
+          through building my projects in public on my Twitter and{" "}
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "blue", textDecoration: "underline" }}
+          >
+            my blog.
+          </a>
         </motion.p>
 
         <div className="mt-20 flex flex-wrap gap-10">
