@@ -45,9 +45,9 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I am a skilled software developer with experience with JavaScript, and
-          Python. I have utilized different frameworks from React, Node.js,
-          Three.js, Django, and Flask. I am building my expertise and experience
+          I am a self-taught developer with experience with JavaScript,and 
+          Node.js. I have utilized different frameworks from React,
+          Three.js, Express, and Next.js. I am building my expertise and experience
           through building my projects in public on my Twitter and{" "}
           <a
             href="https://www.google.com"

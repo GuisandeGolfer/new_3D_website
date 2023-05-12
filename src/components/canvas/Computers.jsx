@@ -6,10 +6,9 @@ extend({ OrbitControls, Preload, useGLTF });
 import CanvasLoader from "../Loader";
 
 // TODO: figure out if I can keep or should remove my vite.yml file with netlify.
-// TODO: create a new 3D model that represents me more.
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./cyberpunk_laptop_concept_design/scene.gltf");
 
   return (
     <mesh>
@@ -28,6 +27,7 @@ const Computers = ({ isMobile }) => {
         scale={isMobile ? 0.7 : 0.75}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
+        // rotation={[-Math.PI / 2, 0, 0]}
       />
     </mesh>
   );
@@ -62,14 +62,14 @@ const ComputersCanvas = () => {
       frameloop="demand"
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [600, 50, 50], fov: 35 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
+          maxPolarAngle={Math.PI / 3.25}
+          minPolarAngle={Math.PI / 3.25}
         />
         <Computers isMobile={isMobile} />
       </Suspense>
