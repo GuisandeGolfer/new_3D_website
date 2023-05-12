@@ -30,13 +30,17 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "projects",
+    title: "Projects"
+  },
+  {
     id: "work",
     title: "Work",
   },
   {
     id: "contact",
     title: "Contact",
-  },
+  }
 ];
 
 const services = [
@@ -45,7 +49,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Python Developer",
+    title: "JavaScript Developer",
     icon: mobile,
   },
   {
@@ -79,10 +83,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -103,10 +107,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
@@ -198,7 +202,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Social Media Python REST API",
+    name: "Social Media Backend API",
     description:
       "a REST API built to support a fully functional social network website. Deployed with a CI/CD pipline to the Cloud,",
     tags: [
