@@ -27,8 +27,7 @@ const GreekHead = ({ isMobile }) => {
         object={bust.scene}
         scale={isMobile ? 5.45 : 15.0}
         position={isMobile ? [0, -10, -2.2] : [10, -60.5, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
-        // rotation={[-Math.PI / 2, 0, 0]}
+        rotation={[1, -1.5, 1]}
       />
     </mesh>
   );

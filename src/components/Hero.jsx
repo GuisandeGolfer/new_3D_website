@@ -4,6 +4,8 @@ import { styles } from "../styles";
 import { GreekCanvas } from "./canvas";
 
 const Hero = () => {
+  // Add Social Media Links here (use TailwindCSS documentation)
+  // after line 29
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
