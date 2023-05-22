@@ -27,6 +27,7 @@ import cec from "./company/CEC.png";
 import vmware from "./company/vmware-logo.png";
 
 import fastapi from "./fastapi.png";
+import aiPhotoGen from "./ai-photo-generator.png";
 import questionMark from "./question_mark.jpg";
 import tripguide from "./tripguide.png";
 
@@ -58,5 +59,6 @@ export {
   vmware,
   fastapi,
   questionMark,
+  aiPhotoGen,
   tripguide,
 };

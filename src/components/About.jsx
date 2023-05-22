@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -45,9 +45,9 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I am a self-taught developer with experience with JavaScript,and 
-          Node.js. I have utilized different frameworks from React,
-          Three.js, Express, and Next.js. I am building my expertise and experience
+          I am a self-taught developer with experience with JavaScript,and
+          Node.js. I have utilized different frameworks from React, Three.js,
+          Express, and Next.js. I am building my expertise and experience
           through building my projects in public on my Twitter and{" "}
           <a
             href="https://www.google.com"

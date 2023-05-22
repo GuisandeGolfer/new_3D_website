@@ -19,6 +19,7 @@ import {
   vine,
   fastapi,
   questionMark,
+  aiPhotoGen,
   threejs,
 } from "../assets";
 
@@ -222,24 +223,26 @@ const projects = [
       "https://github.com/GuisandeGolfer/FCC-fully-featured-fastAPI",
   },
   {
-    name: "To Be Determined",
-    description: "To Be Determined",
+    name: "AI Photo Generator",
+    description:
+      "a Vanilla JS app built with Vite.js that queries the OpenAI API for the user's request",
     tags: [
       {
-        name: "react",
+        name: "OpenAI",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Vite.js",
         color: "pink-text-gradient",
       },
     ],
-    image: questionMark,
-    source_code_link: "https://github.com/",
+    image: aiPhotoGen,
+    source_code_link:
+      "https://github.com/GuisandeGolfer/fireship-pro-AI-Photo-Generator",
   },
   {
     name: "To Be Determined",
