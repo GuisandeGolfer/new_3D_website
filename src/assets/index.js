@@ -26,7 +26,7 @@ import vine from "./company/vine.png";
 import cec from "./company/CEC.png";
 import vmware from "./company/vmware-logo.png";
 
-import carrent from "./carrent.png";
+import fastapi from "./fastapi.png";
 import questionMark from "./question_mark.jpg";
 import tripguide from "./tripguide.png";
 
@@ -56,7 +56,7 @@ export {
   vine,
   cec,
   vmware,
-  carrent,
+  fastapi,
   questionMark,
   tripguide,
 };

@@ -8,18 +8,16 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   target,
   cec,
   vmware,
   vine,
-  carrent,
+  fastapi,
   questionMark,
   threejs,
 } from "../assets";
@@ -31,7 +29,7 @@ export const navLinks = [
   },
   {
     id: "projects",
-    title: "Projects"
+    title: "Projects",
   },
   {
     id: "work",
@@ -40,7 +38,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  }
+  },
 ];
 
 const services = [
@@ -204,7 +202,7 @@ const projects = [
   {
     name: "Social Media Backend API",
     description:
-      "a REST API built to support a fully functional social network website. Deployed with a CI/CD pipline to the Cloud,",
+      "a REST API built to support a fully functional social media website. Deployed with a Docker to the Cloud.",
     tags: [
       {
         name: "Python",
@@ -215,11 +213,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Heroku",
-        color: "pink-text-gradient",
+        name: "Docker",
+        color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: fastapi,
     source_code_link:
       "https://github.com/GuisandeGolfer/FCC-fully-featured-fastAPI",
   },
