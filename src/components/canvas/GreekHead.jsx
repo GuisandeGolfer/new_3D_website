@@ -5,14 +5,12 @@ extend({ OrbitControls, Preload, useGLTF });
 
 import CanvasLoader from "../Loader";
 
-// TODO: figure out if I can keep or should remove my vite.yml file with netlify.
-
 const GreekHead = ({ isMobile }) => {
   const bust = useGLTF("./rhetorician/scene.gltf");
 
-// need to put 'rotation' values inside <mesh> JSX tag
+  // need to put 'rotation' values inside <mesh> JSX tag
   return (
-    <mesh> 
+    <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />
       <spotLight
         position={[-20, 50, 10]}

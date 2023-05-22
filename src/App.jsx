@@ -1,11 +1,9 @@
 import { BrowserRouter } from "react-router-dom";
 
-// TODO: update Works.
 import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
@@ -14,6 +12,8 @@ import {
 } from "./components";
 
 // TODO: find a way to customize the user cursor with this React site, and also have click effects for the user.
+// TODO: add back <Feedbacks /> once I have legit ones.
+//
 const App = () => {
   return (
     <BrowserRouter>
@@ -26,7 +26,6 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
