@@ -225,7 +225,7 @@ const projects = [
   {
     name: "AI Photo Generator",
     description:
-      "a Vanilla JS app built with Vite.js that queries the OpenAI API for the user's request",
+      "a Vanilla JS app built with Vite.js that queries the OpenAI API with a request written by the user",
     tags: [
       {
         name: "OpenAI",
