@@ -243,6 +243,7 @@ const projects = [
     image: aiPhotoGen,
     source_code_link:
       "https://github.com/GuisandeGolfer/fireship-pro-AI-Photo-Generator",
+    live_site_link: "", // TODO: add links for all the projects
   },
   {
     name: "To Be Determined",
