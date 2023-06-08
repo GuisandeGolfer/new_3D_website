@@ -30,8 +30,12 @@ import fastapi from "./fastapi.png";
 import aiPhotoGen from "./ai-photo-generator.png";
 import questionMark from "./question_mark.jpg";
 import tripguide from "./tripguide.png";
+import linkedin from "./socials/240px-LinkedIn_logo_initials.png";
+import twitter from "./socials/twitter.jpeg";
 
 export {
+  linkedin,
+  twitter,
   logo,
   backend,
   creator,

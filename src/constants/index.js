@@ -23,6 +23,8 @@ import {
   threejs,
 } from "../assets";
 
+import { linkedin, twitter } from "../assets";
+
 export const navLinks = [
   {
     id: "about",
@@ -39,6 +41,17 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+];
+
+const socialMediaLinks = [
+  {
+    name: "Linkedin",
+    icon: linkedin,
+  },
+  {
+    name: "Twitter",
+    icon: twitter,
   },
 ];
 
@@ -267,4 +280,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  socialMediaLinks,
+};
