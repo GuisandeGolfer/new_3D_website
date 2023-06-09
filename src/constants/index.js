@@ -1,4 +1,5 @@
 import {
+  github,
   mobile,
   backend,
   creator,
@@ -46,12 +47,22 @@ export const navLinks = [
 
 const socialMediaLinks = [
   {
+    index: 1,
     name: "Linkedin",
     icon: linkedin,
+    link: "https://www.linkedin.com/in/diego-guisande-31575a158/",
   },
   {
+    index: 2,
     name: "Twitter",
     icon: twitter,
+    link: "https://twitter.com/guisande4",
+  },
+  {
+    index: 3,
+    name: "Github",
+    icon: github,
+    link: "https://github.com/GuisandeGolfer",
   },
 ];
 

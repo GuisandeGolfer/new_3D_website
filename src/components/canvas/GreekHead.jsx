@@ -24,14 +24,14 @@ const GreekHead = ({ isMobile }) => {
       <primitive
         object={bust.scene}
         scale={isMobile ? 5.45 : 15.0}
-        position={isMobile ? [0, -10, -2.2] : [10, -60.5, -1.5]}
+        position={isMobile ? [0, -10, -2.2] : [-10, -60.5, -1.5]}
         rotation={[1, -1.5, 1]}
       />
     </mesh>
   );
 };
 
-const GreekCanvas = () => {
+const GreekCanvas = ({ zindex }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -62,6 +62,7 @@ const GreekCanvas = () => {
       dpr={[1, 2]}
       camera={{ position: [200, 50, 50], fov: 35 }}
       gl={{ preserveDrawingBuffer: false }}
+      className={`${zindex}`}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
@@ -69,7 +70,7 @@ const GreekCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
           autoRotate
-          autoRotateSpeed={2.0}
+          autoRotateSpeed={3.0}
         />
         <GreekHead isMobile={isMobile} />
       </Suspense>

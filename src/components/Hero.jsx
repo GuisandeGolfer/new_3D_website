@@ -1,7 +1,9 @@
+import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { GreekCanvas } from "./canvas";
+import SocialMedia from "./SocialMedia.jsx";
 
 const Hero = () => {
   // Add Social Media Links here (use TailwindCSS documentation)
@@ -26,6 +28,8 @@ const Hero = () => {
             my next career opportunity.
           </p>
         </div>
+
+        <SocialMedia />
       </div>
 
       <GreekCanvas />
