@@ -50,7 +50,7 @@ const About = () => {
           Express, and Next.js. I am building my expertise and experience
           through building my projects in public on my Twitter and{" "}
           <a
-            href="https://www.google.com"
+            href="https://diegotechblog.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "blue", textDecoration: "underline" }}
