@@ -48,13 +48,13 @@ export const navLinks = [
 const socialMediaLinks = [
   {
     index: 1,
-    name: "Linkedin",
+    name: "linkedin",
     icon: linkedin,
     link: "https://www.linkedin.com/in/diego-guisande-31575a158/",
   },
   {
     index: 2,
-    name: "Twitter",
+    name: "twitter",
     icon: twitter,
     link: "https://twitter.com/guisande4",
   },
@@ -267,7 +267,7 @@ const projects = [
     image: aiPhotoGen,
     source_code_link:
       "https://github.com/GuisandeGolfer/fireship-pro-AI-Photo-Generator",
-    live_site_link: "", // TODO: add links for all the projects
+    live_site_link: "https://photo-generator-by-diego.netlify.app/",
   },
   {
     name: "To Be Determined",

@@ -2,7 +2,7 @@ import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
-
+import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 import { socialMediaLinks } from "../constants";
 
 function ServiceCard({ index, name, icon, link }) {
@@ -30,13 +30,20 @@ function ServiceCard({ index, name, icon, link }) {
 function SocialMedia() {
   return (
     <>
-      <div className="z-50 mt-20 flex flex-wrap gap-7">
-        {socialMediaLinks.map((project, index) => (
-          <ServiceCard key={`project-${index}`} index={index} {...project} />
-        ))}
-      </div>
+      {socialMediaLinks.map((social, index) => (
+        <MDBBtn
+          key={`project-${index}`}
+          index={index}
+          //style={{ backgroundColor: "#55acee" }}
+          href={social.link}
+        >
+          <MDBIcon className="me-2" fab icon={social.name} /> {social.name}
+        </MDBBtn>
+      ))}
     </>
   );
 }
 
 export default SocialMedia;
+
+//TODO: fix the blue background issue that probably was inherited through the CSS rules or something.

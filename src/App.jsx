@@ -11,9 +11,6 @@ import {
   StarsCanvas,
 } from "./components";
 
-// TODO: find a way to customize the user cursor with this React site, and also have click effects for the user.
-// TODO: add back <Feedbacks /> once I have legit ones.
-//
 const App = () => {
   return (
     <BrowserRouter>
